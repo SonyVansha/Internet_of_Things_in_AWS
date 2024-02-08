@@ -20,13 +20,6 @@ This mosquitto running in port 1883, please add port 1883 to your EC2
 mosquitto
 ```
 
-
-### 
-
-
-#### Example Testing Mosquitto Broken Server
-<iframe src="https://giphy.com/embed/9gFrKD7zCxo1VIuCv5" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/9gFrKD7zCxo1VIuCv5"></a></p>
-
 ### Subscribe to Mosquitto Broker Server
 
 Received an incoming message from Mosquitto Broken
@@ -34,7 +27,8 @@ Received an incoming message from Mosquitto Broken
 mosquitto_sub.exe -h 34.200.235.118 -t sony
 ```
 
-
+#### Example Testing Mosquitto Broken Server
+![giphy](https://github.com/SonyVansha/Internet_of_Things_in_AWS/assets/152833966/72f4b8cf-26ea-4f4d-81c7-3b2fbc55c226)
 
  <!-- -b : run in batch mode to allow passing passwords on the command line.
  -c : create a new password file. This will overwrite existing files.
