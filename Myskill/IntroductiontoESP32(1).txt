@@ -1,0 +1,78 @@
+# Spesifikasi ESP32
+
+micro processor yang memiliki tambahan memory, flash, ram
+
+ESP32 adalah sebuah seri mikrokontroler buatan dari ESPRESSIF.
+
+mikrokontroler : micro processor yang memiliki tambahan memory, flash, ram
+
+ESP32 begitu Populer :
+- Murah
+- Kaya akan fitur konektivitas seperti Wifi, bluetooth
+- Dapat diprogram dengan Arduino
+- Compact & Integrated system : kecil tanpa perlu di program lagi
+- Low-power
+- kaya akan Fitur GPIO
+- Dual core processor
+
+Perbedaan ESP32 dan ESP8266 :
+> ESP32
+- Dual core
+- Lebih cepat
+- bluetooth 4.2 dan BLE
+
+> ESP8266
+- Lebih Murah
+- Lebih kecil
+
+# Fitur GPIO pada ESP32
+
+GPIO (General Purpose Input/Output)
+
+
+ESP32 memiliki 48 GPIO
+ESP32 development board hanya memiliki 25 GPIO yang Terhubung pada pin Header.
+
+## GPIO : Digital Input/Output
+ESP32 memiliki 21 GPIO untuk INPUT/OUTPUT dan 4 GPIO untuk INPUT only.
+
+## GPIO : Interupt
+
+Seluruh pin GPIO dapat digunakan sebagi pin Interupt.
+
+Interupt berfungsi sebagai Input pin untuk menginteruksikan suatu program yang berjalan.
+
+## GPIO : RTC (Real-Time Clock)
+
+ESP32 menggunakan RTC ketika ESP32 berada dalam mode deep sleep.
+
+Pin tersebut dapat membangunkan ESP32 dari mode deep sleep ketika di Interupt atau ketika waktunya tiba.
+
+## GPIO : ADC & DAC
+
+# Fitur konektivitas ESP32
+
+ESP32 memiliki komponen RF yang sudah ada :
+- Power Amplifier
+- Low-Noise Receive Amplifier
+- Antenna Switch
+- RF Balun
+
+# Memory ESP32
+
+ESP32 memiliki internal memory seperti :
+- Flash Memory (Bergantung dari modul yang digunakan), biasanya 4, 8, 16 MB > Tempat simpan code program
+- SRAM (Static Random Access Memory) (520KB) > menyimpan data variable seperti data internet, wifi
+
+
+Flash Memory digunakan untuk menyimpan :
+- Bootloader
+- Code program
+- EEPROM > Memory yang bisa di tulis dan baca, ketika restart maka code masih ingat
+
+# ESP32 form Factor
+
+ESP32 memiliki 3 bentuk :
+- SoC (System on Chip)
+- Module (SoC + SPI Flash Memory, Shield, and Antenna)
+- development board (Module + Voltage Regulator, USB to TTL, pins, etc)

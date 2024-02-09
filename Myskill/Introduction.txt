@@ -1,0 +1,32 @@
+# Introduction IoT
+
+Internet Of Things (IoT) adalah sekumpulan object atau benda fisik (Thing) yang terkoneksi satu sama lain melalui Internet dengan tujuan melakukan pengiriman data atu pemrosesan data ke object lain atau system lain.
+
+Karakteristik object IoT
+- SMART : memilikia kemampuan atau fitur
+- CONNECTED : Terhubung dengan Device lain atau Internet
+- IoT Networks : berada dalam suatu Jaringna IoT
+
+Istilah lain
+- Connected Device : hanya terconnect tapi tidak SMART
+    contoh = bluetooth Speaker (Bukan IoT)
+- Connected Device but connect Internet : terconnect Internet tetapi tidak semua smart Device termasuk IoT, karena bukan berada di Jaringna IoT
+    contoh = smartphone, laptop, dsb.
+
+Contoh perangkat IoT :
+- SMART Blub
+- SMART LOCK
+- SMART CAMERA
+- SMART SPEAKER
+- SMART TV
+- SMART SENSOR
+- SMART WATCHES
+- SMART CAR
+
+# History of IoT
+
+Internet Of Things (IoT) pertama kali disebutkan pada th 1999 pada sebuah presentasi supply chain management di MIT oleh Kevin Ashton. lalu menawarkan pemasangan RFID pada produk P&G untuk melakukan tracking supply chain.
+
+Perangkat IoT dibuat adalah sebuah mesin vending coca-cola yang dimodifikasi oleh mahasiswa dari Carnegie Mellon University pada tahun 1982. Lalu mengubungkan mesin tersebut dengan Internet (ARPANET) dan pemograman untuk mengecek ketersediaan minuman.
+
+
