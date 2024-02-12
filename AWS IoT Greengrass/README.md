@@ -124,7 +124,7 @@ nano artifacts/com.example.HelloWorld/1.0.0/hello_world.py
 ```
 
 Tambahkan Menggunakan Script python 👇:
-- Script .py : [**hello_world.py**](./linux_file/hello_world.py)
+- Script .py : [**hello_world.py**](linux_file/hello_world.py)
 
 #### Jalankan perintah berikut untuk men-deploy komponen tersebut ke AWS IoT Greengrass Core
 
@@ -220,7 +220,7 @@ sudo /greengrass/v2/bin/greengrass-cli component list
 
 Uploud Folder [**`artifacts`**](artifacts)
 
-ADD Gif
+![giphy (1)](https://github.com/SonyVansha/Internet_of_Things_in_AWS/assets/152833966/a812f0d7-f2e3-4864-8feb-31c66b339c10)
 
 #### Buat policy pada IAM dengan Nama MyGreengrassV2ComponentArtifactPolicy
 
